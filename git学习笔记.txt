@@ -1,0 +1,23 @@
+暂存区->工作区
+git rm  --cache  删除缓冲区
+git log  查看提交日志
+git log -最近提交的次数
+git log --pretty =oneline
+
+命令光标切换快捷键
+ctrl+A 光标跳到前面
+ctrl+E 光标跳到后面
+ctrl+C 跳到下一行（放弃当前行执行）
+
+$echo '内容'>hello.txt    把内容写入到hello.txt  文件中，覆盖掉原来的内容
+
+
+设置邮箱和用户名
+git config --global (基本不用，给整个计算机一次性设置)
+git config --system (给当前用户一次性设置)  ~.gitconfig
+git config --local (给当前项目一次性设置)   .git/config
+
+$pwd  查看当前目录结构
+
+$cat gitconfig 查看当前计算机用户的用户名和邮箱,该信息存放位置C:\Users\Administrator\.gitconfig.cofig 中
+
