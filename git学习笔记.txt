@@ -33,3 +33,12 @@ git reset head 从暂存区到工作区
 
 提交问题：
                只对修改之后的提交有效。修改之前的提交仍然使用之前的配置（用户名、邮箱）
+删除已提交的文件
+git rm x  1:删除  2.放暂存区git st
+删除之后文件被放到暂存区中
+彻底删除：git commit -m '彻底删除'
+操作系统  rm 文件  1. 删除 2.工作区
+
+git rm 后悔
+1.恢复到工作区 git reset head hello.txt
+2.                      git checkout --hello.txt
