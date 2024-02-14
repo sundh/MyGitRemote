@@ -17,7 +17,12 @@ git config --global (基本不用，给整个计算机一次性设置)
 git config --system (给当前用户一次性设置)  ~.gitconfig
 git config --local (给当前项目一次性设置)   .git/config
 
+优先级: local>system>global
 $pwd  查看当前目录结构
 
 $cat gitconfig 查看当前计算机用户的用户名和邮箱,该信息存放位置C:\Users\Administrator\.gitconfig.cofig 中
 
+删除 git config --local --unset  user.name
+操作：
+       如果某个文件已提交，并且对其进行了修改。可以放弃修改（还原到已提交状态）
+git checkout --  hello.txt
